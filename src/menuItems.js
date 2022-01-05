@@ -34,5 +34,13 @@ export const menuItems = [
   },
   {
     title: "About",
+    submenu: [
+      {
+        title: "Who we are",
+      },
+      {
+        title: "Our values",
+      },
+    ],
   },
 ];
