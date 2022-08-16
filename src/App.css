@@ -9,7 +9,6 @@ body {
 }
 
 header {
-  height: 58px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   color: #212529;
 }
@@ -19,8 +18,7 @@ header {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
-  height: 58px;
+  padding: 10px 20px;
 }
 
 .logo {
@@ -32,6 +30,8 @@ header {
 
 .menus {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   list-style: none;
 }
 
@@ -48,6 +48,8 @@ header {
 }
 
 .menu-items button {
+  display: flex;
+  align-items: center;
   color: inherit;
   font-size: inherit;
   border: none;
@@ -56,8 +58,11 @@ header {
   width: 100%;
 }
 
-.menu-items a,
-.menu-items button {
+button span {
+  margin-left: 3px;
+}
+
+.menu-items > a, .menu-items button {
   text-align: left;
   padding: 0.7rem 1rem;
 }
@@ -101,4 +106,21 @@ header {
   position: absolute;
   left: 100%;
   top: -7px;
+}
+
+/* content */
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 20px;
+}
+
+.content h2 {
+  margin-bottom: 1rem;
+}
+
+.content a {
+  color: #cc3852;
+  margin-right: 10px;
 }

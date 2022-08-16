@@ -1,45 +1,56 @@
 export const menuItems = [
   {
-    title: "Home",
+    title: 'Home',
+    url: '/',
   },
   {
-    title: "Services",
+    title: 'Services',
+    url: '/services',
     submenu: [
       {
-        title: "web design",
+        title: 'web design',
+        url: 'web-design',
       },
       {
-        title: "web development",
+        title: 'web development',
+        url: 'web-dev',
         submenu: [
           {
-            title: "Frontend",
+            title: 'Frontend',
+            url: 'frontend',
           },
           {
-            title: "Backend",
+            title: 'Backend',
             submenu: [
               {
-                title: "NodeJS",
+                title: 'NodeJS',
+                url: 'node',
               },
               {
-                title: "PHP",
+                title: 'PHP',
+                url: 'php',
               },
             ],
           },
         ],
       },
       {
-        title: "SEO",
+        title: 'SEO',
+        url: 'seo',
       },
     ],
   },
   {
-    title: "About",
+    title: 'About',
+    url: '/about',
     submenu: [
       {
-        title: "Who we are",
+        title: 'Who we are',
+        url: 'who-we-are',
       },
       {
-        title: "Our values",
+        title: 'Our values',
+        url: 'our-values',
       },
     ],
   },
